@@ -21,7 +21,7 @@ hr {
 
 .hero {
     height: 100vh;
-    background: no-repeat center/contain url('./images/MainComp.svg');
+    background: no-repeat center/contain url('/images/MainComp.svg');
     display: flex;
     flex-direction: column-reverse;
 }
@@ -237,7 +237,7 @@ h1 {
 
 .languages {
     height: 1074px;
-    background: no-repeat center/cover url('./images/Wall.svg');
+    background: no-repeat center/cover url('/images/Wall.svg');
 }
 
 .languages__items {
@@ -249,7 +249,7 @@ h1 {
 }
 
 .languages__wrapper {
-    width: 100%;
+    width: calc(100%-40px);
     position: absolute;
     bottom: 20px;
 }
