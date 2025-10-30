@@ -16,12 +16,12 @@ hr {
     position: relative;
     width: 100%;
     height: 100%;
-    padding: 0 20px 0 20px;
+    padding-bottom: 20px;
 }
 
 .hero {
     height: 100vh;
-    background: no-repeat center/contain url('../images/MainComp.svg');
+    background: no-repeat top center/contain url('../images/MainComp.svg');
     display: flex;
     flex-direction: column-reverse;
 }
@@ -248,8 +248,8 @@ h1 {
 }
 
 .languages {
-    height: 1100px;
-    background: no-repeat center/cover url('../images/Wall.png');
+    height: 1080px;
+    background: no-repeat top center/cover url('../images/Wall.png');
 }
 
 .languages__items {
