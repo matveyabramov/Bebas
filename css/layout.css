@@ -40,7 +40,7 @@ hr {
     gap: 5px;
 }
 
-.history,.typefaces, .glyphs, .posters, .languages {
+.history, .typefaces, .glyphs, .posters, .languages {
     margin-top: 140px;
 }
 
@@ -248,7 +248,7 @@ h1 {
 }
 
 .languages {
-    height: 1074px;
+    height: 1100px;
     background: no-repeat center/cover url('../images/Wall.png');
 }
 
